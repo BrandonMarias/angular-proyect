@@ -7,11 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public title: string = 'mi-primer-proyecto-angular';
-  public counter: number = 10;
-  increaseBy1(): void {
-    this.counter++;
-  }
-  decreaseBy1(): void {
-    this.counter--;
-  }
+
 }
